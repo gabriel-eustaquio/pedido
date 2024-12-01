@@ -1,0 +1,24 @@
+section h3:first-child {
+  margin-bottom: var(--8);
+}
+
+section div {
+  display: flex;
+  gap: var(--4);
+}
+
+.pedido {
+  color: var(--cor-base-1);
+  background-color: var(--cor-base-8);
+  padding: var(--8) var(--16);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: var(--4);
+}
+
+.button-pedido {
+  background-color: var(--cor-principal-3);
+  color: var(--cor-base-1);
+  padding: var(--8) var(--16);
+  border: none;
+}

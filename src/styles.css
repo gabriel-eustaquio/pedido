@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --cor-base-1: #F5F7FA;
+  --cor-base-2: #E6EAF0;
+  --cor-base-3: #CED3D9;
+  --cor-base-4: #C0C5CC;
+  --cor-base-5: #B2B8BF;
+  --cor-base-6: #989EA6;
+  --cor-base-7: #7E838C;
+  --cor-base-8: #636973;
+  --cor-base-9: #474D59;
+  --cor-base-10: #1A1A1A;
+  --cor-principal-1: #E9A0FB;
+  --cor-principal-2: #CE76E3;
+  --cor-principal-3: #B255CA;
+  --cor-principal-4: #9B38B4;
+  --cor-principal-5: #761B8C;
+  --cor-principal-6: #4F0A61;
+  --cor-principal-7: #2A0034;
+  --4: 0.25rem;
+  --8: 0.5rem;
+  --12: 0.75rem;
+  --16: 1rem;
+  --40: 2.5rem;
+  --120: 7.5rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor-base-10);
+  color: var(--cor-base-1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+img {
+  object-fit: cover;
+  height: 100%;
+  object-position: left;
+}
+
+/* Classes utilitarias */
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: var(--16) var(--8);
+}

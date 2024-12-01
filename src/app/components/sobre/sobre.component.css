@@ -1,0 +1,44 @@
+main {
+  padding: var(--120) var(--8);
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: var(--120);
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+main h2::before {
+  width: 50px;
+  height: 5px;
+  background-color: var(--cor-principal-3);
+  display: block;
+  content: "";
+}
+
+main p {
+  color: var(--cor-base-3);
+  margin-top: var(--4);
+}
+
+main div:last-child {
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: var(--40) var(--8) 0px var(--8);
+    gap: var(--16);
+  }
+
+  main div {
+    order: 2;
+    padding: 0px;
+  }
+
+  main div:last-child img {
+    width: 100%;
+  }
+}
